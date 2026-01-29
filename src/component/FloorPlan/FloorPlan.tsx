@@ -22,7 +22,7 @@ const plans = [
 
 export default function FloorPlanSection() {
   return (
-    <section className="w-full py-16 bg-white">
+    <section className="w-full py-16 bg-white" id="floor-plan">
       <div className="max-w-6xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: -30 }}

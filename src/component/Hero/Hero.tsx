@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import bannerImg from "../../assest/banner.webp";
 
 const Hero = () => {
   const [visible, setVisible] = useState(false);
@@ -13,7 +14,7 @@ const Hero = () => {
     <section className="relative w-full bg-white overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&h=1080&fit=crop"
+          src={bannerImg.src}
           alt="Project"
           className="w-full h-full object-cover"
         />
@@ -94,7 +95,7 @@ const Hero = () => {
 
             <div className="flex gap-2">
               <select
-                className="w-1/3 border text-[#3E4C31] font-serif px-3 py-3 rounded-md text-sm"
+                className="w-auto border text-[#3E4C31] font-serif px-3 py-3 rounded-md text-sm"
                 style={{ letterSpacing: "0.5px" }}
               >
                 <option>India (+91)</option>

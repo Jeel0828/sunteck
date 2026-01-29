@@ -31,26 +31,30 @@ const Header = () => {
             style={{ letterSpacing: "0.5px" }}
           >
             {[
-              "Overview",
-              "Amenities",
-              "Price Plan",
-              "Floor Plan",
-              "Gallery",
-              "Location",
+              { label: "Overview", href: "#overview" },
+              { label: "Amenities", href: "#amenities" },
+              { label: "Price Plan", href: "#price-plan" },
+              { label: "Floor Plan", href: "#floor-plan" },
+              { label: "Gallery", href: "#gallery" },
+              { label: "Location", href: "#location" },
             ].map((item) => (
-              <a key={item} href="#" className="hover:text-black transition">
-                {item}
+              <a
+                key={item.label}
+                href={item.href}
+                className="hover:text-black transition"
+              >
+                {item.label}
               </a>
             ))}
           </nav>
 
           <div className="hidden lg:block">
             <a
-              href="tel:+910000000000"
+              href="tel:+91 9773069318"
               className="border text-black font-serif border-gray-600 px-4 py-2 rounded-md text-sm font-medium hover:bg-black hover:text-white transition"
               style={{ letterSpacing: "0.5px" }}
             >
-              +910000000000
+              +91 9773069318
             </a>
           </div>
 
@@ -82,26 +86,26 @@ const Header = () => {
 
         <nav className="flex flex-col gap-6 px-6 py-8 text-lg">
           {[
-            "Overview",
-            "Amenities",
-            "Price Plan",
-            "Floor Plan",
-            "Gallery",
-            "Location",
+            { label: "Overview", href: "#overview" },
+            { label: "Amenities", href: "#amenities" },
+            { label: "Price Plan", href: "#price-plan" },
+            { label: "Floor Plan", href: "#floor-plan" },
+            { label: "Gallery", href: "#gallery" },
+            { label: "Location", href: "#location" },
           ].map((item) => (
             <a
-              key={item}
-              href="#"
+              key={item.label}
+              href={item.href}
               className="border-b pb-2 border-gray-300 text-black font-medium font-serif"
               style={{ letterSpacing: "0.5px" }}
               onClick={() => setMenuOpen(false)}
             >
-              {item}
+              {item.label}
             </a>
           ))}
 
           <a
-            href="tel:+910000000000"
+            href="tel:+91 9773069318"
             className="mt-3 bg-black text-white font-serif font-medium text-center py-3 rounded-md"
             style={{ letterSpacing: "0.5px" }}
           >

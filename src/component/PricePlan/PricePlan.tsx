@@ -1,6 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
+import FormPopup from "../Form/Form";
 
 const pricePlans = [
   {
@@ -21,8 +23,12 @@ const pricePlans = [
 ];
 
 const PricePlan = () => {
+  const [showForm, setShowForm] = useState(false);
+
   return (
-    <section className="bg-white py-20 px-4" id="price-plan">
+    <>
+      {showForm && <FormPopup onClose={() => setShowForm(false)} />}
+      <section className="bg-white py-20 px-4" id="price-plan">
       <div className="text-center mb-10">
         <div
           className="inline-block bg-[#E1C21B] text-black font-normal font-serif px-6 py-2 text-sm mb-3"
@@ -68,6 +74,7 @@ const PricePlan = () => {
             </p>
 
             <button
+              onClick={() => setShowForm(true)}
               className="bg-[#1E1E1A] cursor-pointer font-serif text-white px-8 py-3 rounded-md text-sm font-medium hover:bg-black transition"
               style={{ letterSpacing: "1px" }}
             >
@@ -77,6 +84,7 @@ const PricePlan = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };
 

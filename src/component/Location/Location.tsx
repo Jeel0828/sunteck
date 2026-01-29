@@ -37,7 +37,7 @@ export default function LocationSection() {
   const [openIndex, setOpenIndex] = useState<number>(0);
 
   return (
-    <section className="w-full py-16 bg-white">
+    <section className="w-full py-16 bg-white" id="location">
       <div className="max-w-6xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: -30 }}

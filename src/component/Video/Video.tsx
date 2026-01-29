@@ -6,11 +6,13 @@ import { Play } from "lucide-react";
 export default function VideoSection() {
   const videos = [
     {
-      thumb: "/images/video1.jpg",
+      thumb:
+        "https://sunteckmiraroad.ondevwebs.com/wp-content/uploads/2022/08/v2.webp",
       link: "https://www.youtube.com/watch?v=xxxx",
     },
     {
-      thumb: "/images/video2.jpg",
+      thumb:
+        "https://sunteckmiraroad.ondevwebs.com/wp-content/uploads/2022/08/v1.webp",
       link: "https://www.youtube.com/watch?v=xxxx",
     },
   ];
