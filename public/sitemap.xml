@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage -->
+  <url>
+    <loc>https://sunteckrealty.com/</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Main Sections -->
+  <url>
+    <loc>https://sunteckrealty.com/#overview</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://sunteckrealty.com/#amenities</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sunteckrealty.com/#floor-plans</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sunteckrealty.com/#price-plans</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://sunteckrealty.com/#location</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sunteckrealty.com/#virtual-tour</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sunteckrealty.com/#brochure</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://sunteckrealty.com/#developer</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sunteckrealty.com/#contact</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Static Assets -->
+  <url>
+    <loc>https://sunteckrealty.com/images/</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Blog/News (if applicable) -->
+  <url>
+    <loc>https://sunteckrealty.com/blog</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://sunteckrealty.com/privacy-policy</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://sunteckrealty.com/terms-of-service</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Image references for better image SEO -->
+  <url>
+    <loc>https://sunteckrealty.com/</loc>
+    <image:image>
+      <image:loc>https://sunteckrealty.com/images/hero-banner.jpg</image:loc>
+      <image:title>Sunteck Realty Luxury Properties</image:title>
+      <image:caption>Premium residential and commercial properties by Sunteck Realty in Mumbai</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sunteckrealty.com/images/logo.png</image:loc>
+      <image:title>Sunteck Realty Logo</image:title>
+      <image:caption>Official logo of Sunteck Realty</image:caption>
+    </image:image>
+  </url>
+</urlset>
